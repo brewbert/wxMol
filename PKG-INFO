@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: wxMol
+Version: 0.85
+Summary: Stoichiometric Calculator
+Home-page: http://netbeer.org/
+Author: Ing. Hubert Hanghofer
+Author-email: hubert@netbeer.org
+License: GPL version 3
+Description: wrapper for eval() function that recognizes element symbols and formula notation
+Platform: any
+Requires: wx
