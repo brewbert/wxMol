@@ -1,0 +1,5 @@
+graft icons
+prune Output
+include wxMol.iss
+include CHANGELOG.TXT
+include README.TXT

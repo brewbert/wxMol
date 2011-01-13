@@ -1,0 +1,12 @@
+CHANGELOG.TXT
+README.TXT
+README.txt
+__init__.py
+molcalc.py
+setup.py
+wxMol.iss
+wxMol.py
+wxMolGui.py
+icons\benzol.ico
+icons\copy.xpm
+icons\tick.xpm

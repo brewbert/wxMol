@@ -1,0 +1,15 @@
+VERSION
+
+0.85 - 17.09.2010: Changed wxSizer layout to expand eval-textbox.
+
+0.8 - 16.03.2010: fix issues with closing paranthesis in arithmetic
+    calculations.
+
+0.7 - 11.02.2010: fix integer cutoff in simple numeric calculations.
+    integer input like 3 / 4 (resulting in 0) is now converted to 3.0 / 4
+
+0.6 - 03.02.2010: bracketing bugfix. Right parenthesis was set incorrectly.
+    For example Al2(SO4)3 was evaluated as (Al*2 + (S + O*4))*3 and is now
+    correctly evaluated as (Al*2 + (S + O*4)*3)
+
+0.5 - 27.01.2010: Initial release

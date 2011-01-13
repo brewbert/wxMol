@@ -1,0 +1,15 @@
+Manuelle Installation:
+Das gesamte wxMol Verzeichnis in einen Programmpfad kopieren.
+wxMol.exe in diesem Verzeichnis durch Doppelklicken ausführen
+(Windows Explorer). Wenn eine Fehlermeldung über ungültige Anwendung
+erscheint, müssen alle DLL Laufzeitbibliotheken und das MANIFEST
+aus dem Verzeichnis Microsoft.VC90.CRT ebenfalls in das wxMol-
+Verzeichnis kopiert werden.
+
+Automatische Installation (empfohlen, Administratorrechte erforderlich):
+Setup-Programm der aktuellen Version mit lokalen Administratorrechten
+ausführen, z.B.: wxMol-0.85-Setup.exe (rechts klicken, Ausführen als...)
+Die Microsoft Laufzeitbibliotheken werden dabei in das Side by Side
+(WinSxS Systemverzeichnis) kopiert und stehen allen Anwendungen zur
+Verfügung.
+
