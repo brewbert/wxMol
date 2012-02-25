@@ -1,6 +1,9 @@
 Copyright (c) 2010 Ing. Hubert Hanghofer
 Licensed under the GPL (see sources).
 Binaries are available from <http://hanghofer.net/~hubert/python>
+Sources are available from the repositories at
+*   <https://github.com/brewbert/wxMol> and
+*   <https://bitbucket.org/brewbert/wxmol>
 
 What is wxMol?
 ==============
@@ -17,4 +20,15 @@ you can check if the calculation was done according to your
 expectations.
 
 molcalc.py contains the parser function and acts as a shell version
-of the program.
+of the program. wxMol.py is the graphical user interface, built
+with the popular [wxPython Library](http://wxpython.org/).
+
+Prerequisites
+=============
+
+*   [Python](http://python.org/) interpreter.
+*   [wxPython](http://wxpython.org/) GUI library.
+
+On Windows you may use the Windows Installers provided
+at <http://hanghofer.net/~hubert/python> or in the Output directory
+of the repositories. They install all dependencies.
