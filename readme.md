@@ -1,7 +1,9 @@
 Copyright (c) 2010 Ing. Hubert Hanghofer
 Licensed under the GPL (see sources).
-python sources are available from
-http://hanghofer.net/~hubert/python
+Binaries are available from <http://hanghofer.net/~hubert/python>
+
+What is wxMol?
+==============
 
 wxMol.py is a stoichiometric calculator. Under the hood it's a
 simple wrapper for python's eval() function. It recognizes
