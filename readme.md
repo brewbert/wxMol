@@ -1,6 +1,6 @@
-Copyright (c) 2010 Ing. Hubert Hanghofer
+Copyright (c) 2010 Ing. Hubert Hanghofer,
 Licensed under the GPL (see sources).
-Binaries are available from <http://hanghofer.net/~hubert/python>
+Binaries are available from <http://hanghofer.net/~hubert/python>.
 Sources are available from the repositories at
 
 *   <https://github.com/brewbert/wxMol> and

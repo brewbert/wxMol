@@ -1,6 +1,5 @@
 CHANGELOG.TXT
-README.TXT
-README.txt
+readme.md
 __init__.py
 molcalc.py
 setup.py

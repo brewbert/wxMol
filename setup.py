@@ -22,7 +22,7 @@ if "py2exe" in sys.argv:
     import py2exe
     my_data_files = [
                     ('icons', glob(os.path.join('icons', '*'))),
-                    ('',      ['README.TXT', 'CHANGELOG.TXT',
+                    ('',      ['readme.md', 'CHANGELOG.TXT',
                                '../../../programming/python27/lib/site-packages/wx-2.8-msw-unicode/wx/gdiplus.dll'
                               ]
                     )]
@@ -68,7 +68,7 @@ setup(
     author='Ing. Hubert Hanghofer',
     author_email='hubert@netbeer.org',
     copyright='2010, Hubert Hanghofer',
-    url='http://netbeer.org/',
+    url='http://hubert.hanghofer.net/',
     license='GPL version 3',
     platforms=['any'],
     package_dir={'wxMol': ''},
@@ -77,7 +77,7 @@ setup(
     data_files=my_data_files,
     console=[my_console_opts],
     windows=[my_windows_opts],
-    options = {"py2exe": {"compressed": 2, 
+    options = {"py2exe": {"compressed": 2,
                           "optimize": 2,
                           "bundle_files": 1,
                           "excludes": my_excludes,
@@ -88,5 +88,5 @@ setup(
                          }
                },
     requires=['wx'],
-    zipfile = r'library.zip',     
+    zipfile = r'library.zip',
     )
